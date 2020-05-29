@@ -1,1 +1,5 @@
 conda env export | cut -f -2 -d "=" | grep -v "prefix" > environment.yml to clean environment.yml
+
+even better: conda env export --name notebooks2020 > environment.yml --no-builds
+
+OS specific packages can gum up binder
