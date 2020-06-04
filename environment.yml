@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - bioconda
   - r
-  - defaults
+  - "--editable=git+https://github.com/ColtonGarelli/GeneXpress.git
 dependencies:
   - _r-mutex=1.0
   - attrs=19.3
