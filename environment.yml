@@ -4,8 +4,10 @@ channels:
   - conda-forge
   - bioconda
   - r
-  - "--editable=git+https://github.com/ColtonGarelli/GeneXpress.git"
+  -
 dependencies:
+  - pip:
+      git+https://github.com/ColtonGarelli/GeneXpress.git:
   - _r-mutex=1.0
   - attrs=19.3
   - backcall=0.1
